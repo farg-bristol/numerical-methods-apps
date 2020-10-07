@@ -1,3 +1,5 @@
+<img width="600" alt="fd_app_screenshot" src="https://raw.githubusercontent.com/farg-bristol/numerical-methods-apps/main/finite_differences/screenshot_fd.png">
+
 ## Instructions to run:
 
 - From within MATLAB, navigate to the folder containing this README document;

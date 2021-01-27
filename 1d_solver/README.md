@@ -1,8 +1,10 @@
+![](https://raw.githubusercontent.com/farg-bristol/numerical-methods-apps/main/1d_solver/solver1d_demo.gif)
+
 ## Instructions to run:
 
 - From within MATLAB, navigate to the folder containing this README document;
 
-- Type 'solver1d' in the command window to start the applet
+- Type `solver1d` in the command window to start the applet
 
 
 ## Learning questions

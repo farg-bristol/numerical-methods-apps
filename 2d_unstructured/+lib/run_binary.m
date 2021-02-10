@@ -1,12 +1,16 @@
 function [stat,out] = run_binary(cmd,workDir,echo)
 
+parts = split(cmd);
+prog = parts{1};
+args = join(parts{2:end},' ');
+
 if isunix
     
     cmd = ['unset LD_LIBRARY_PATH;',cd,filesep,'bin',filesep,'linux_x86-64',filesep,cmd];
     
 elseif ispc
     
-    cmd = [cd,filesep,'bin',filesep,'windows_x86-64',filesep,cmd];
+    cmd = ['"',cd,filesep,'bin',filesep,'windows_x86-64',filesep,prog,'" ',args];
     
 else
     
